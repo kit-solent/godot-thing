@@ -10,7 +10,7 @@ viewport_path = NodePath("sub_viewport")
 script = ExtResource("1_04uvc")
 
 [node name="scene_image" type="Sprite2D" parent="."]
-position = Vector2(949, 492)
+position = Vector2(897, 549)
 scale = Vector2(5.982, 5.327595)
 texture = ExtResource("2_gl4sv")
 
@@ -20,11 +20,9 @@ disable_3d = true
 [node name="camera_2d" type="Camera2D" parent="sub_viewport"]
 
 [node name="projection" type="Polygon2D" parent="."]
-texture_filter = 1
-position = Vector2(74, 118)
-scale = Vector2(0.38671875, 0.40234375)
 texture = SubResource("ViewportTexture_gl4sv")
-polygon = PackedVector2Array(325.81818, -191.37863, 548.202, -161.55339, 281.85855, 243.57281, 248.2424, -104.388336, 0, 171.49518, 178.42422, 415.068, -165.49496, 323.1068, 5.1717224, 305.70874, -248.24243, 188.89319, -434.42426, 7.456299, -548.202, -183.92233, 455.11115, -328.07767)
+polygon = PackedVector2Array(-100, -100, 100, -100, 100, 100, -100, 100)
+uv = PackedVector2Array(-100, -100, 100, -100, 100, 100, -100, 100)
 
 [node name="border" type="Line2D" parent="projection"]
 
